@@ -1,0 +1,8 @@
+---
+FMC_Server:
+  - hostname: FMC
+    ipaddr:   192.168.100.150(example)
+    port: 443
+    username: apirestusername(example)
+    password: Cisco123(example)
+    version: 1
