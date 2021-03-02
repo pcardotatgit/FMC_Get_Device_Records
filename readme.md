@@ -72,7 +72,7 @@ Run the **2-fmc_get_devices_records.py** script.
 
 This script displays the device records into a json format and store them into the **output_devices_json.json** file
 
-### Convert the JSON Result into a CSV file###
+### Convert the JSON Result into a CSV file ###
 
 Run the **3-json_to_csv.py** in order to convert the **output_devices_json.json** file into the **device_records.csv**
 
