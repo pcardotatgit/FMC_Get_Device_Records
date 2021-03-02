@@ -28,8 +28,8 @@ Installing these scripts is pretty straight forward . You can just copy / and pa
 
 ### git clone the scripts
 
-	git clone 
-	cd 
+	git clone https://github.com/pcardotatgit/FMC_Get_Device_Records.git
+	cd FMC_Get_Device_Records
 	
 ### install needed modules
 
@@ -66,13 +66,13 @@ This authentication token will be valid during 30 minutes.
 
 All scripts will read the authentication token from the **token.txt** file and if the token is no longer valid ( error code 401 ), all scripts will automatically ask to FMC for a new authentication token.
 
-### Get de device records ###
+### Get device records ###
 
 Run the **2-fmc_get_devices_records.py** script.
 
 This script displays the device records into a json format and store them into the **output_devices_json.json** file
 
-### Convert JSON Result into a CSV ###
+### Convert the JSON Result into a CSV file###
 
 Run the **3-json_to_csv.py** in order to convert the **output_devices_json.json** file into the **device_records.csv**
 
